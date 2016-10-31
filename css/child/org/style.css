@@ -1,0 +1,58 @@
+/*
+Theme Name: Child Storefront
+Version: 1.0
+Description: Child theme for Storefront.
+Author: WooThemes
+Author URI: http://www.woothemes.com
+Template: storefront
+*/
+
+@import url("../storefront/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- *//
+
+a {outline:0 !important;}
+a:focus {outline:0 !important;}
+a:hover {outline:0 !important;}
+
+header {background-repeat: no-repeat; background-position-x: 0;}
+.site-header {background-color: #fff;}
+.site-header {margin-bottom: 2.618em;}
+.site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link {width: 25%; min-width: 25%}
+.site-footer a:not(.button) { color: #8fa54e !important }
+
+.form-row input, .form-row select, .form-row textarea {width: 50%;}
+
+.product_meta a { color: #8fa54e !important;}
+.products .quantity {display: inline;}
+.products p, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", sans-serif !important;}
+.products a {color: #8fa54e !important; margin-bottom: .5em;}
+.products a.button {color: #515151 !important;}
+
+.summary h1, .price, p, .shop_attributes  {font-family: "Helvetica Neue", sans-serif !important;}
+
+.woocommerce a.button {font-family: "Helvetica Neue", sans-serif;}
+.woocommerce.product-columns-3 ul.products li.product, .woocommerce-page.product-columns-3 ul.products li.product { width: 29%; }
+.woocommerce-tabs ul.tabs li a { color: #8fa54e !important;}
+.site-main .columns-3 ul.products li.product {max-height: 38em; margin-bottom: 2em;}
+.site-main .columns-3 ul.products li.product p {margin-bottom: .5em;}
+.site-main .columns-3 ul.products li.product .stock {visibility: hidden;}
+.site-main .columns-3 ul.products li.product.last, ul.products li.product.first { margin-right: 1% !important; margin-left: 1% !important;height: 33em;}
+.site-main .columns-3 ul.products li.product.last, ul.products li.product.first .product_cat-bundles {height: 40em;}
+.product_cat-bundles .stock {display: none !important;}
+.site-header-cart .widget_shopping_cart {color: #666;}
+
+ul.products li.product .woocommerce-LoopProduct-link p {max-height: 5em; overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;}
+
+.input-text, input[type=text], input[type=email], input[type=url], input[type=password], input[type=search], textarea {width: 100%}
+
+.woocommerce ul.products li.product .price {font-size: 1.1em; font-weight: bold;}
+
+.stock.in-stock:before {content:"";}
+.wc-forward {background-color:#8fa54e !important;}
+button.menu-toggle {background: #43454b; margin-top: 6.5em; margin-right: 2em;}
+.main-navigation .handheld-navigation { background-color: #43454b;}
+
+.storefront-primary-navigation {background:rgba(0,0,0,.6) !important;}
+@media only screen and (max-width:768px) {.storefront-primary-navigation {background:rgba(0,0,0,0) !important;}}

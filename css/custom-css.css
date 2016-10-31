@@ -1,0 +1,102 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+a {
+	outline: 0 !important;
+	color: #8fa54e;
+}
+
+a:focus {
+	outline: 0 !important;
+}
+
+a:hover {
+	outline: 0 !important;
+}
+
+body li, .shop_table, .woocommerce-breadcrumb {
+	font-family: "Helvetica Neue", sans-serif !important;
+}
+
+ul.menu li.current-menu-item > a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.logo {
+	background-image: url(http://762.c8d.mwp.accessdomain.com/wp-content/uploads/altman-logo-white.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 116px;
+	height: 75px;
+	position: absolute;
+	right: 5%;
+}
+
+.site-header .site-branding {
+	width: 60%;
+	min-width: 60%;
+}
+
+.site-title {
+	font-size: 2.224em !important;
+}
+
+.site-description {
+	font-size: 1.15em !important;
+}
+
+.no {
+	display: none;
+}
+
+.widget_shopping_cart a, .widget_shopping_cart .quantity, .widget_shopping_cart .total {
+	color: #666 !important;
+}
+
+.widget_shopping_cart a.button, .products a.added_to_cart {
+	color: #eee !important;
+}
+
+table.cart .product-thumbnail {
+	display: table-cell;
+}
+
+table.cart .product-thumbnail img {
+	width: 50px;
+}
+
+.browsers {
+	text-align: center;
+}
+
+.browsers img {
+	margin: 10px;
+	display: inline !important;
+}
+
+.alpha, h1 {
+	font-size: 1.5em;
+}
+
+.beta, h2 {
+	font-size: 1.3em;
+}
+
+.su-tabs-pane {
+	font-size: 15px !important;
+}
+
+.yith-wcpb-product-bundled-item-instock {
+	display: none;
+}
+
+td.yith-wcpb-product-bundled-item-data p {
+	font-size: 13px;
+}
+
+ul.products li.product.first {
+	clear: none !important;
+}
