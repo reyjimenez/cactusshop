@@ -100,3 +100,29 @@ td.yith-wcpb-product-bundled-item-data p {
 ul.products li.product.first {
 	clear: none !important;
 }
+
+@media screen and (min-width: 768px) {
+.site-header-cart .widget_shopping_cart, .main-navigation ul.menu ul.sub-menu, .main-navigation ul.nav-menu ul.children {
+    background-color: rgba(0,0,0,1);
+    top: 50px;
+}
+}
+
+@media (min-width: 768px) {
+.main-navigation ul.menu>li>a, .main-navigation ul.nav-menu>li>a {
+    padding: 1.618em .8em;
+}
+}
+
+.primary-navigation {
+    text-transform: uppercase;
+    font-size: 80%;
+}
+
+.col-full {
+	margin-bottom: 100px;
+}
+
+.site-main {
+	margin-bottom: 14.618em;
+}
